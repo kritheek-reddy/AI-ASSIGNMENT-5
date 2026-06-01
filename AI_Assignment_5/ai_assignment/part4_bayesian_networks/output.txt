@@ -1,0 +1,22 @@
+Bayesian Network Test Cases
+===========================
+
+Test Case 1: Fever, Cough, and Fatigue present
+Evidence: {'fever': True, 'cough': True, 'fatigue': True}
+Probability of Flu: 0.7887
+Diagnosis: High chance of flu
+
+Test Case 2: Fever and Cough present, Fatigue absent
+Evidence: {'fever': True, 'cough': True, 'fatigue': False}
+Probability of Flu: 0.3478
+Diagnosis: Low chance of flu
+
+Test Case 3: Only Fever present
+Evidence: {'fever': True, 'cough': False, 'fatigue': False}
+Probability of Flu: 0.0541
+Diagnosis: Low chance of flu
+
+Test Case 4: No symptoms present
+Evidence: {'fever': False, 'cough': False, 'fatigue': False}
+Probability of Flu: 0.0016
+Diagnosis: Low chance of flu

@@ -1,0 +1,78 @@
+Test Case 1: Heritage and Culture Trip
+AI Based Travel Planner
+-----------------------
+City: Hyderabad
+Interests: history, culture
+Budget: 1000
+Available Hours: 8
+
+Recommended Travel Plan:
+
+1 . Charminar
+   Category: heritage
+   Approx Cost: 200
+   Time Required: 2 hours
+   Recommended Food: Hyderabadi Biryani, Irani Chai, Kebabs
+
+2 . Golconda Fort
+   Category: heritage
+   Approx Cost: 300
+   Time Required: 3 hours
+   Recommended Food: Hyderabadi Biryani, Irani Chai, Kebabs
+
+3 . Salar Jung Museum
+   Category: museum
+   Approx Cost: 150
+   Time Required: 3 hours
+   Recommended Food: South Indian Meals, Tea, Snacks
+
+Total Estimated Cost: 650
+Total Time Required: 8 hours
+
+==================================================
+
+Test Case 2: Nature and Photography Trip
+AI Based Travel Planner
+-----------------------
+City: Hyderabad
+Interests: nature, photography
+Budget: 700
+Available Hours: 5
+
+Recommended Travel Plan:
+
+1 . Charminar
+   Category: heritage
+   Approx Cost: 200
+   Time Required: 2 hours
+   Recommended Food: Hyderabadi Biryani, Irani Chai, Kebabs
+
+2 . Hussain Sagar Lake
+   Category: nature
+   Approx Cost: 250
+   Time Required: 2 hours
+   Recommended Food: Street Food, Juice, Ice Cream
+
+Total Estimated Cost: 450
+Total Time Required: 4 hours
+
+==================================================
+
+Test Case 3: Entertainment Trip
+AI Based Travel Planner
+-----------------------
+City: Hyderabad
+Interests: entertainment, family
+Budget: 2000
+Available Hours: 8
+
+Recommended Travel Plan:
+
+1 . Ramoji Film City
+   Category: entertainment
+   Approx Cost: 1500
+   Time Required: 6 hours
+   Recommended Food: Fast Food, Meals, Snacks
+
+Total Estimated Cost: 1500
+Total Time Required: 6 hours

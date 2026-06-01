@@ -1,0 +1,43 @@
+Test Case 1: Display all facts
+Knowledge Graph Facts
+---------------------
+Hyderabad -- hasPlace --> Charminar
+Hyderabad -- hasPlace --> Golconda Fort
+Hyderabad -- hasPlace --> Salar Jung Museum
+Hyderabad -- hasFood --> Biryani
+Hyderabad -- hasFood --> Irani Chai
+Charminar -- type --> Heritage Monument
+Golconda Fort -- type --> Historical Fort
+Salar Jung Museum -- type --> Museum
+Charminar -- locatedIn --> Hyderabad
+Golconda Fort -- locatedIn --> Hyderabad
+Salar Jung Museum -- locatedIn --> Hyderabad
+Biryani -- isFamousFoodOf --> Hyderabad
+Irani Chai -- isFamousFoodOf --> Hyderabad
+Charminar -- bestFor --> Photography
+Golconda Fort -- bestFor --> History
+Salar Jung Museum -- bestFor --> Art
+
+==================================================
+
+Test Case 2: Find facts where subject is Hyderabad
+('Hyderabad', 'hasPlace', 'Charminar')
+('Hyderabad', 'hasPlace', 'Golconda Fort')
+('Hyderabad', 'hasPlace', 'Salar Jung Museum')
+('Hyderabad', 'hasFood', 'Biryani')
+('Hyderabad', 'hasFood', 'Irani Chai')
+
+==================================================
+
+Test Case 3: Find all locatedIn relations
+('Charminar', 'locatedIn', 'Hyderabad')
+('Golconda Fort', 'locatedIn', 'Hyderabad')
+('Salar Jung Museum', 'locatedIn', 'Hyderabad')
+
+==================================================
+
+Test Case 4: Find entities connected to Charminar
+('Hyderabad', 'hasPlace', 'Charminar')
+('Charminar', 'type', 'Heritage Monument')
+('Charminar', 'locatedIn', 'Hyderabad')
+('Charminar', 'bestFor', 'Photography')

@@ -1,0 +1,22 @@
+Current Board:
+X | X |  
+---------
+O | O |  
+---------
+  |   |  
+---------
+
+1. Minimax Result
+Best score: 1
+Best move: (0, 2)
+
+2. Alpha-Beta Result
+Best score: 1
+Best move: (0, 2)
+
+3. Heuristic Alpha-Beta Result
+Best score: 100
+Best move: (0, 2)
+
+4. Monte Carlo Tree Search Result
+Best move: (0, 2)
